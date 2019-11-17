@@ -1,0 +1,336 @@
+body{
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+   }
+#header{
+    background-image: url("./assets/architecture-background-buildings-218983.jpg");
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  background-position: center;
+}
+.navbar{
+    height: 100px;
+    width: auto;
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 40px;
+    color: white;
+}
+#name{
+    margin-top:0px;
+}
+.navbar-brand{
+    margin-left: 40px;
+    width: 500px;
+    float: left;
+    font-size: 30px;
+}
+#links{
+    float: right;
+}
+.fab{
+    margin-right: 30px;
+}
+#intro{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 30px;
+    margin-top: 120px;
+}
+#introTxt{
+    text-align: center;
+}
+ #buttonContainer{
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+ .btn-primary{
+     background-color: #138D75;
+     border: #138D75
+ }
+ #portfolio{
+    background-color: #36383b;
+     height: 600px;
+     border: 1px solid #1ab394;
+ }
+ #portTitle{
+     padding-top: 20px;
+     text-align: center;
+     font-weight: bold;
+     font-size: 50px;
+     color: #1ab394;
+     margin-bottom: 40px;
+     font-family: 'Exo 2', sans-serif;
+ }
+
+ #border{
+     height: 600px;
+ }
+
+ .projectWindow1{
+     height: 350px;
+     width: 350px;
+     background-color: white;
+     border-radius: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+
+     
+ }
+ .projectWindow2{
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+    
+}
+.projectWindow3{
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    border-radius: 50%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+}
+
+
+ #portfolioSec{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+ }
+
+ #book{
+     background-image: url("./assets/blur-book-stack-books-590493.jpg");
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+ #bookshelf{
+     color: white;
+    font-family: 'Russo One', sans-serif;
+    text-shadow: 2px 2px 5px red;
+    font-size: 40px;
+    margin: 0   auto;
+ }
+
+ #bookshelf a {
+     color: white;
+     text-decoration: none;
+ }
+
+ #gameDar{
+    background: #1ab394;
+    background: linear-gradient(#1ab394, #293f50);
+ }
+
+ #gameDar a {
+     color:black;
+     text-decoration: none;
+ }
+ #game{
+    font-family: 'Rubik Mono One', sans-serif;
+    margin: 0   auto;
+ }
+
+ #gamedarLogo{
+    height: 70px;
+    width: 70px;
+ }
+
+ #resume{
+     height: 500px;
+     display: flex;
+     flex-direction: row;
+     background: linear-gradient(270deg, #2795ba, #713fcd);
+     -webkit-animation: AnimationName 15s ease infinite;
+     -moz-animation: AnimationName 15s ease infinite;
+     animation: AnimationName 15s ease infinite;
+     background-size: 200% 200%;
+ }
+
+ @-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+ #contact{
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+ }
+
+ #skills{
+     color: #1ab394;
+     height: 300px;
+     width: 300px;
+     border: 1px solid #1ab394;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     margin: 100px 100px 0px 100px;
+     
+ }
+
+ #html{
+    background-image: url("./assets/html.png");
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+ }
+
+ #css{
+     background-image: url("./assets/css.png");
+     height: 70px;
+    width: 70px;
+    background-size: cover;
+}
+
+#js{
+     background-image: url("./assets/javascript.png");
+     height: 70px;
+    width: 70px;
+    background-size: cover;
+}
+
+#node{
+    background-image: url("./assets/nodejs-png-node-js-on-light-background-1843.png");
+    height: 70px;
+   width: 120px;
+   background-size: cover;
+}
+
+#react{
+    background-image: url("./assets/react-icon-29.jpg");
+    height: 80px;
+   width: 70px;
+   background-size: cover;
+}
+
+ #skills p{
+     text-align: center;
+     font-size: 50px;
+     margin-top: 100px;
+ }
+
+ .row{
+     margin-top: 200px;
+     
+ }
+
+ @media only screen and (max-width: 833px) {
+    .navbar-brand {
+      width: 300px;
+    }
+  }
+
+  @media only screen and (max-width: 833px) {
+    #book {
+      width: 210px;
+      height: 210px;
+    }
+    #gameDar{
+        width: 210px;
+        height: 210px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .navbar-brand {
+      font-size: 20px;
+      width: 200px;
+    }
+    #portfolioSec{
+        flex-direction: column;
+    }
+    #portfolio{
+        display: flex;
+        justify-content: center;
+    } 
+    .projectWindow1{
+        margin-bottom: 40px;
+    }
+    #introTxt{
+        font-size: 20px;
+    }
+  }
+ 
+  @media only screen and (max-width: 700px) {
+    #html{
+        width: 55px;
+        height: 55px;
+    }
+    #css{
+        width: 55px;
+        height: 55px;
+    }
+    #js{
+        width: 55px;
+        height: 55px;
+    }
+    #node{
+        width: 90px;
+        height: 55px;
+    }
+    #react{
+        width: 55px;
+        height: 55px;
+    }
+    #skills{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 575px) {
+    .row.container{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    #html{
+        width: 40px;
+        height: 40px;
+    }
+    #css{
+        width: 40px;
+        height: 40px;
+    }
+    #js{
+        width: 40px;
+        height: 40px;
+    }
+    #node{
+        width: 90px;
+        height: 55px;
+    }
+    #react{
+        width: 40px;
+        height: 40px;
+    }
+  }
+ 
