@@ -333,4 +333,11 @@ html {
         height: 40px;
     }
   }
+
+  @media only screen and (max-width: 499px) {
+    .navbar-brand {
+      width: 100px;
+      font-size: 10px;
+    }
+  }
  
